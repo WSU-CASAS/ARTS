@@ -1,0 +1,42 @@
+# The repository is a set of scripts run from the repository root (see docs/REPRODUCE.md);
+# it is not installed as a package. `pip install .` installs only the dependencies.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arts"
+version = "1.0.0"
+description = "ARTS: automated transcription and scoring of spoken word-list recall with Whisper and a frozen, versioned scoring recipe"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Luiz Takahashi Dos Reis" }]
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=1.26",
+  "openpyxl>=3.1",
+  "openai-whisper>=20240930",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["cache", "outputs"]
+
+[tool.ruff.lint]
+# Gate on real defects (undefined names, unused imports and variables, syntax errors).
+# Every script imports the _bootstrap path shim before the other imports (E402 by design).
+select = ["E9", "F"]

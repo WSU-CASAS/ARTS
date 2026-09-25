@@ -1,0 +1,5 @@
+pandas
+numpy
+openpyxl
+matplotlib
+openai-whisper        # Whisper speech recognition; needs ffmpeg on PATH

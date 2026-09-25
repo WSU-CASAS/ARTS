@@ -1,0 +1,25 @@
+measure,measure_label,comparison,comparison_label,n,icc21,mae,bias,pearson_r,exact_match_rate,within1_rate
+recall_correct,Recall correct,machine_vs_passA,machine vs pass A,585,0.971,0.21,0.01,0.971,0.83,0.97
+recall_correct,Recall correct,machine_vs_passB,machine vs pass B,583,0.968,0.21,-0.0,0.968,0.83,0.97
+recall_correct,Recall correct,passA_vs_passB,pass A vs pass B,583,0.987,0.11,0.01,0.987,0.91,0.98
+recall_correct,Recall correct,machine_vs_human_mean,machine vs mean of A and B,583,0.973,0.21,0.0,0.973,0.8,0.97
+recall_repetitions,Recall repetitions,machine_vs_passA,machine vs pass A,585,0.079,0.58,0.56,0.224,0.83,0.89
+recall_repetitions,Recall repetitions,machine_vs_passB,machine vs pass B,583,0.086,0.58,0.57,0.241,0.83,0.89
+recall_repetitions,Recall repetitions,passA_vs_passB,pass A vs pass B,583,0.781,0.04,-0.0,0.78,0.97,0.99
+recall_repetitions,Recall repetitions,machine_vs_human_mean,machine vs mean of A and B,583,0.083,0.58,0.57,0.246,0.81,0.89
+recall_intrusions,Recall intrusions,machine_vs_passA,machine vs pass A,585,0.175,0.66,0.17,0.212,0.69,0.88
+recall_intrusions,Recall intrusions,machine_vs_passB,machine vs pass B,583,0.192,0.65,0.15,0.229,0.7,0.88
+recall_intrusions,Recall intrusions,passA_vs_passB,pass A vs pass B,583,0.891,0.15,0.03,0.892,0.88,0.98
+recall_intrusions,Recall intrusions,machine_vs_human_mean,machine vs mean of A and B,583,0.186,0.65,0.16,0.227,0.65,0.89
+recall_primacy,Primacy,machine_vs_passA,machine vs pass A,585,0.963,0.07,0.01,0.963,0.94,0.99
+recall_primacy,Primacy,machine_vs_passB,machine vs pass B,583,0.968,0.06,-0.01,0.968,0.95,0.99
+recall_primacy,Primacy,passA_vs_passB,pass A vs pass B,583,0.984,0.04,0.01,0.984,0.96,1.0
+recall_primacy,Primacy,machine_vs_human_mean,machine vs mean of A and B,583,0.969,0.06,0.0,0.969,0.92,0.99
+recall_middle,Middle,machine_vs_passA,machine vs pass A,585,0.954,0.12,-0.01,0.954,0.9,0.99
+recall_middle,Middle,machine_vs_passB,machine vs pass B,583,0.95,0.13,-0.0,0.95,0.88,0.99
+recall_middle,Middle,passA_vs_passB,pass A vs pass B,583,0.97,0.08,-0.0,0.97,0.93,0.99
+recall_middle,Middle,machine_vs_human_mean,machine vs mean of A and B,583,0.959,0.12,-0.0,0.959,0.86,0.99
+recall_recency,Recency,machine_vs_passA,machine vs pass A,585,0.974,0.05,0.0,0.974,0.95,1.0
+recall_recency,Recency,machine_vs_passB,machine vs pass B,583,0.973,0.05,0.0,0.973,0.95,0.99
+recall_recency,Recency,passA_vs_passB,pass A vs pass B,583,0.99,0.02,-0.0,0.99,0.98,1.0
+recall_recency,Recency,machine_vs_human_mean,machine vs mean of A and B,583,0.977,0.05,0.0,0.977,0.94,1.0

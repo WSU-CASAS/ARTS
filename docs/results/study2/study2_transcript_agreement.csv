@@ -1,0 +1,5 @@
+task,task_label,comparison,comparison_label,n,mean_wer,median_wer,corpus_wer
+word_recall,word-list recall,machine_vs_passA,machine vs pass A,577,0.2580078703356151,0.07692307692307693,0.24963196635120927
+word_recall,word-list recall,machine_vs_passB,machine vs pass B,576,0.30659828422049434,0.0,0.26718716113641294
+word_recall,word-list recall,passA_vs_passB,pass A vs pass B,577,0.05240644386871361,0.0,0.07339642481598317
+word_recall,word-list recall,machine_vs_human_mean,machine vs mean of A and B,576,0.28118550203923626,0.07142857142857142,0.2552440068493151

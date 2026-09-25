@@ -1,0 +1,491 @@
+{
+  "generated": "2026-09-25T14:48:05-07:00",
+  "inputs": {
+    "pass_a": "CAT_reliability20_passA.xlsx",
+    "pass_b": "CAT_reliability20_passB.xlsx",
+    "scores_recall": "scores_word_recall.csv",
+    "scores_serial": "scores_serial.csv",
+    "transcripts_dir": "transcripts"
+  },
+  "recipe": {
+    "recipe_version": [
+      "2026-09-freeze"
+    ],
+    "recipe_config": [
+      "ra_informed"
+    ]
+  },
+  "exploratory": false,
+  "exploratory_note": null,
+  "data_quality": {
+    "passA": {
+      "rows": {
+        "Transcriptions": 585,
+        "Score - word recall": 585
+      },
+      "unscored_rows": {
+        "Transcriptions": 0,
+        "Score - word recall": 0
+      },
+      "duplicates": {
+        "Transcriptions": 0,
+        "Score - word recall": 0
+      },
+      "blank": {
+        "Score - word recall / Correct": 0,
+        "Score - word recall / Repetitions": 0,
+        "Score - word recall / Intrusions": 0,
+        "Score - word recall / Primacy": 0,
+        "Score - word recall / Middle": 0,
+        "Score - word recall / Recency": 0
+      },
+      "nonnumeric": {
+        "Score - word recall / Correct": 0,
+        "Score - word recall / Repetitions": 0,
+        "Score - word recall / Intrusions": 0,
+        "Score - word recall / Primacy": 0,
+        "Score - word recall / Middle": 0,
+        "Score - word recall / Recency": 0
+      },
+      "unknown_task": {
+        "Transcriptions": 0
+      }
+    },
+    "passB": {
+      "rows": {
+        "Transcriptions": 585,
+        "Score - word recall": 585
+      },
+      "unscored_rows": {
+        "Transcriptions": 0,
+        "Score - word recall": 2
+      },
+      "duplicates": {
+        "Transcriptions": 0,
+        "Score - word recall": 0
+      },
+      "blank": {
+        "Score - word recall / Correct": 0,
+        "Score - word recall / Repetitions": 0,
+        "Score - word recall / Intrusions": 0,
+        "Score - word recall / Primacy": 0,
+        "Score - word recall / Middle": 0,
+        "Score - word recall / Recency": 0
+      },
+      "nonnumeric": {
+        "Score - word recall / Correct": 0,
+        "Score - word recall / Repetitions": 0,
+        "Score - word recall / Intrusions": 0,
+        "Score - word recall / Primacy": 0,
+        "Score - word recall / Middle": 0,
+        "Score - word recall / Recency": 0
+      },
+      "unknown_task": {
+        "Transcriptions": 0
+      }
+    },
+    "machine_notes": [],
+    "workbook_clips_transcribed": 585,
+    "machine_transcripts_missing": 0
+  },
+  "matching": {
+    "recall_correct": {
+      "clips_scored_by_either_pass": 585,
+      "with_machine_row": 585,
+      "without_machine_row": 0,
+      "passA_only": 2,
+      "passB_only": 0
+    },
+    "recall_repetitions": {
+      "clips_scored_by_either_pass": 585,
+      "with_machine_row": 585,
+      "without_machine_row": 0,
+      "passA_only": 2,
+      "passB_only": 0
+    },
+    "recall_intrusions": {
+      "clips_scored_by_either_pass": 585,
+      "with_machine_row": 585,
+      "without_machine_row": 0,
+      "passA_only": 2,
+      "passB_only": 0
+    },
+    "recall_primacy": {
+      "clips_scored_by_either_pass": 585,
+      "with_machine_row": 585,
+      "without_machine_row": 0,
+      "passA_only": 2,
+      "passB_only": 0
+    },
+    "recall_middle": {
+      "clips_scored_by_either_pass": 585,
+      "with_machine_row": 585,
+      "without_machine_row": 0,
+      "passA_only": 2,
+      "passB_only": 0
+    },
+    "recall_recency": {
+      "clips_scored_by_either_pass": 585,
+      "with_machine_row": 585,
+      "without_machine_row": 0,
+      "passA_only": 2,
+      "passB_only": 0
+    }
+  },
+  "score_agreement": [
+    {
+      "measure": "recall_correct",
+      "measure_label": "Recall correct",
+      "comparison": "machine_vs_passA",
+      "comparison_label": "machine vs pass A",
+      "n": 585,
+      "icc21": 0.971,
+      "mae": 0.21,
+      "bias": 0.01,
+      "pearson_r": 0.971,
+      "exact_match_rate": 0.83,
+      "within1_rate": 0.97
+    },
+    {
+      "measure": "recall_correct",
+      "measure_label": "Recall correct",
+      "comparison": "machine_vs_passB",
+      "comparison_label": "machine vs pass B",
+      "n": 583,
+      "icc21": 0.968,
+      "mae": 0.21,
+      "bias": -0.0,
+      "pearson_r": 0.968,
+      "exact_match_rate": 0.83,
+      "within1_rate": 0.97
+    },
+    {
+      "measure": "recall_correct",
+      "measure_label": "Recall correct",
+      "comparison": "passA_vs_passB",
+      "comparison_label": "pass A vs pass B",
+      "n": 583,
+      "icc21": 0.987,
+      "mae": 0.11,
+      "bias": 0.01,
+      "pearson_r": 0.987,
+      "exact_match_rate": 0.91,
+      "within1_rate": 0.98
+    },
+    {
+      "measure": "recall_correct",
+      "measure_label": "Recall correct",
+      "comparison": "machine_vs_human_mean",
+      "comparison_label": "machine vs mean of A and B",
+      "n": 583,
+      "icc21": 0.973,
+      "mae": 0.21,
+      "bias": 0.0,
+      "pearson_r": 0.973,
+      "exact_match_rate": 0.8,
+      "within1_rate": 0.97
+    },
+    {
+      "measure": "recall_repetitions",
+      "measure_label": "Recall repetitions",
+      "comparison": "machine_vs_passA",
+      "comparison_label": "machine vs pass A",
+      "n": 585,
+      "icc21": 0.079,
+      "mae": 0.58,
+      "bias": 0.56,
+      "pearson_r": 0.224,
+      "exact_match_rate": 0.83,
+      "within1_rate": 0.89
+    },
+    {
+      "measure": "recall_repetitions",
+      "measure_label": "Recall repetitions",
+      "comparison": "machine_vs_passB",
+      "comparison_label": "machine vs pass B",
+      "n": 583,
+      "icc21": 0.086,
+      "mae": 0.58,
+      "bias": 0.57,
+      "pearson_r": 0.241,
+      "exact_match_rate": 0.83,
+      "within1_rate": 0.89
+    },
+    {
+      "measure": "recall_repetitions",
+      "measure_label": "Recall repetitions",
+      "comparison": "passA_vs_passB",
+      "comparison_label": "pass A vs pass B",
+      "n": 583,
+      "icc21": 0.781,
+      "mae": 0.04,
+      "bias": -0.0,
+      "pearson_r": 0.78,
+      "exact_match_rate": 0.97,
+      "within1_rate": 0.99
+    },
+    {
+      "measure": "recall_repetitions",
+      "measure_label": "Recall repetitions",
+      "comparison": "machine_vs_human_mean",
+      "comparison_label": "machine vs mean of A and B",
+      "n": 583,
+      "icc21": 0.083,
+      "mae": 0.58,
+      "bias": 0.57,
+      "pearson_r": 0.246,
+      "exact_match_rate": 0.81,
+      "within1_rate": 0.89
+    },
+    {
+      "measure": "recall_intrusions",
+      "measure_label": "Recall intrusions",
+      "comparison": "machine_vs_passA",
+      "comparison_label": "machine vs pass A",
+      "n": 585,
+      "icc21": 0.175,
+      "mae": 0.66,
+      "bias": 0.17,
+      "pearson_r": 0.212,
+      "exact_match_rate": 0.69,
+      "within1_rate": 0.88
+    },
+    {
+      "measure": "recall_intrusions",
+      "measure_label": "Recall intrusions",
+      "comparison": "machine_vs_passB",
+      "comparison_label": "machine vs pass B",
+      "n": 583,
+      "icc21": 0.192,
+      "mae": 0.65,
+      "bias": 0.15,
+      "pearson_r": 0.229,
+      "exact_match_rate": 0.7,
+      "within1_rate": 0.88
+    },
+    {
+      "measure": "recall_intrusions",
+      "measure_label": "Recall intrusions",
+      "comparison": "passA_vs_passB",
+      "comparison_label": "pass A vs pass B",
+      "n": 583,
+      "icc21": 0.891,
+      "mae": 0.15,
+      "bias": 0.03,
+      "pearson_r": 0.892,
+      "exact_match_rate": 0.88,
+      "within1_rate": 0.98
+    },
+    {
+      "measure": "recall_intrusions",
+      "measure_label": "Recall intrusions",
+      "comparison": "machine_vs_human_mean",
+      "comparison_label": "machine vs mean of A and B",
+      "n": 583,
+      "icc21": 0.186,
+      "mae": 0.65,
+      "bias": 0.16,
+      "pearson_r": 0.227,
+      "exact_match_rate": 0.65,
+      "within1_rate": 0.89
+    },
+    {
+      "measure": "recall_primacy",
+      "measure_label": "Primacy",
+      "comparison": "machine_vs_passA",
+      "comparison_label": "machine vs pass A",
+      "n": 585,
+      "icc21": 0.963,
+      "mae": 0.07,
+      "bias": 0.01,
+      "pearson_r": 0.963,
+      "exact_match_rate": 0.94,
+      "within1_rate": 0.99
+    },
+    {
+      "measure": "recall_primacy",
+      "measure_label": "Primacy",
+      "comparison": "machine_vs_passB",
+      "comparison_label": "machine vs pass B",
+      "n": 583,
+      "icc21": 0.968,
+      "mae": 0.06,
+      "bias": -0.01,
+      "pearson_r": 0.968,
+      "exact_match_rate": 0.95,
+      "within1_rate": 0.99
+    },
+    {
+      "measure": "recall_primacy",
+      "measure_label": "Primacy",
+      "comparison": "passA_vs_passB",
+      "comparison_label": "pass A vs pass B",
+      "n": 583,
+      "icc21": 0.984,
+      "mae": 0.04,
+      "bias": 0.01,
+      "pearson_r": 0.984,
+      "exact_match_rate": 0.96,
+      "within1_rate": 1.0
+    },
+    {
+      "measure": "recall_primacy",
+      "measure_label": "Primacy",
+      "comparison": "machine_vs_human_mean",
+      "comparison_label": "machine vs mean of A and B",
+      "n": 583,
+      "icc21": 0.969,
+      "mae": 0.06,
+      "bias": 0.0,
+      "pearson_r": 0.969,
+      "exact_match_rate": 0.92,
+      "within1_rate": 0.99
+    },
+    {
+      "measure": "recall_middle",
+      "measure_label": "Middle",
+      "comparison": "machine_vs_passA",
+      "comparison_label": "machine vs pass A",
+      "n": 585,
+      "icc21": 0.954,
+      "mae": 0.12,
+      "bias": -0.01,
+      "pearson_r": 0.954,
+      "exact_match_rate": 0.9,
+      "within1_rate": 0.99
+    },
+    {
+      "measure": "recall_middle",
+      "measure_label": "Middle",
+      "comparison": "machine_vs_passB",
+      "comparison_label": "machine vs pass B",
+      "n": 583,
+      "icc21": 0.95,
+      "mae": 0.13,
+      "bias": -0.0,
+      "pearson_r": 0.95,
+      "exact_match_rate": 0.88,
+      "within1_rate": 0.99
+    },
+    {
+      "measure": "recall_middle",
+      "measure_label": "Middle",
+      "comparison": "passA_vs_passB",
+      "comparison_label": "pass A vs pass B",
+      "n": 583,
+      "icc21": 0.97,
+      "mae": 0.08,
+      "bias": -0.0,
+      "pearson_r": 0.97,
+      "exact_match_rate": 0.93,
+      "within1_rate": 0.99
+    },
+    {
+      "measure": "recall_middle",
+      "measure_label": "Middle",
+      "comparison": "machine_vs_human_mean",
+      "comparison_label": "machine vs mean of A and B",
+      "n": 583,
+      "icc21": 0.959,
+      "mae": 0.12,
+      "bias": -0.0,
+      "pearson_r": 0.959,
+      "exact_match_rate": 0.86,
+      "within1_rate": 0.99
+    },
+    {
+      "measure": "recall_recency",
+      "measure_label": "Recency",
+      "comparison": "machine_vs_passA",
+      "comparison_label": "machine vs pass A",
+      "n": 585,
+      "icc21": 0.974,
+      "mae": 0.05,
+      "bias": 0.0,
+      "pearson_r": 0.974,
+      "exact_match_rate": 0.95,
+      "within1_rate": 1.0
+    },
+    {
+      "measure": "recall_recency",
+      "measure_label": "Recency",
+      "comparison": "machine_vs_passB",
+      "comparison_label": "machine vs pass B",
+      "n": 583,
+      "icc21": 0.973,
+      "mae": 0.05,
+      "bias": 0.0,
+      "pearson_r": 0.973,
+      "exact_match_rate": 0.95,
+      "within1_rate": 0.99
+    },
+    {
+      "measure": "recall_recency",
+      "measure_label": "Recency",
+      "comparison": "passA_vs_passB",
+      "comparison_label": "pass A vs pass B",
+      "n": 583,
+      "icc21": 0.99,
+      "mae": 0.02,
+      "bias": -0.0,
+      "pearson_r": 0.99,
+      "exact_match_rate": 0.98,
+      "within1_rate": 1.0
+    },
+    {
+      "measure": "recall_recency",
+      "measure_label": "Recency",
+      "comparison": "machine_vs_human_mean",
+      "comparison_label": "machine vs mean of A and B",
+      "n": 583,
+      "icc21": 0.977,
+      "mae": 0.05,
+      "bias": 0.0,
+      "pearson_r": 0.977,
+      "exact_match_rate": 0.94,
+      "within1_rate": 1.0
+    }
+  ],
+  "transcript_agreement": [
+    {
+      "task": "word_recall",
+      "task_label": "word-list recall",
+      "comparison": "machine_vs_passA",
+      "comparison_label": "machine vs pass A",
+      "n": 577,
+      "mean_wer": 0.2580078703356151,
+      "median_wer": 0.07692307692307693,
+      "corpus_wer": 0.24963196635120927
+    },
+    {
+      "task": "word_recall",
+      "task_label": "word-list recall",
+      "comparison": "machine_vs_passB",
+      "comparison_label": "machine vs pass B",
+      "n": 576,
+      "mean_wer": 0.30659828422049434,
+      "median_wer": 0.0,
+      "corpus_wer": 0.26718716113641294
+    },
+    {
+      "task": "word_recall",
+      "task_label": "word-list recall",
+      "comparison": "passA_vs_passB",
+      "comparison_label": "pass A vs pass B",
+      "n": 577,
+      "mean_wer": 0.05240644386871361,
+      "median_wer": 0.0,
+      "corpus_wer": 0.07339642481598317
+    },
+    {
+      "task": "word_recall",
+      "task_label": "word-list recall",
+      "comparison": "machine_vs_human_mean",
+      "comparison_label": "machine vs mean of A and B",
+      "n": 576,
+      "mean_wer": 0.28118550203923626,
+      "median_wer": 0.07142857142857142,
+      "corpus_wer": 0.2552440068493151
+    }
+  ]
+}

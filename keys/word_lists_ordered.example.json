@@ -1,0 +1,7 @@
+{
+  "_source": "Example format only, with made-up words. Replace with the study's lists, in the order they were presented.",
+  "list_1": {
+    "memory": ["anchor", "basket", "candle", "desert", "engine", "forest", "garden", "harbor", "island", "jacket", "kettle", "lemon"],
+    "foils": ["rope", "box", "lamp", "sand", "motor", "tree", "yard", "port", "beach", "coat", "pot", "lime"]
+  }
+}

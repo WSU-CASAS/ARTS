@@ -1,0 +1,40 @@
+# Generated data and caches. cache/ holds the validated Whisper transcripts and
+# outputs/ the scored tables; both contain participant data and are never tracked.
+cache/
+outputs/
+archive/
+
+# Raw data lives outside the repo (../CAT Smart Watch *), never commit it.
+# manual_transcription/ lists and holds participant recordings.
+manual_transcription/
+notebooks/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+.venv/
+
+# Office and binary documents (workbooks and PDFs are built into outputs/)
+*.xlsx
+*.docx
+*.pptx
+*.pdf
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Study materials and identifiers stay local (see keys/README.md)
+keys/*.json
+!keys/word_lists_ordered.example.json
+keys/*.txt
+keys/*.csv
