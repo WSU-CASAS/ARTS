@@ -75,7 +75,7 @@ Agreement with research assistants, ICC(2,1):
 | | Correct words | Primacy / middle / recency | Repetitions | Intrusions |
 |---|---|---|---|---|
 | Development sample, final configuration (602 recordings, 14 participants) | .983 | .970 / .970 / .976 | .592 | .711 |
-| Validation sample, pipeline vs Rater 1 / Rater 2 (585 recordings from 20 participants; 583 rated by Rater 2) | .971 / .968 | .950 to .974 | .079 / .086 | .175 / .192 |
+| Validation sample, pipeline vs Rater 1 / Rater 2 (585 recordings from 20 participants) | .971 / .968 | .950 to .974 | .079 / .086 | .175 / .191 |
 | Validation sample, Rater 1 vs Rater 2 | .987 | .970 to .990 | .781 | .891 |
 
 The aggregate reports are in [docs/results/](docs/results/). In those files and in the

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arts"
-version = "1.0.0"
+version = "1.0.1"
 description = "ARTS: automated transcription and scoring of spoken word-list recall with Whisper and a frozen, versioned scoring recipe"
 readme = "README.md"
 requires-python = ">=3.11"

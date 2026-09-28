@@ -15,7 +15,8 @@ not a confirmatory result.
 
 Generated 2026-09-16 from `outputs/v2/` (scores), `outputs/v2/dev_agreement.json`
 (development agreement) and `outputs/study2_v2/` (Study 2 under v2). Aggregates
-only; no clip or participant identifiers.
+only; no clip or participant identifiers. At that date pass B had scored 583 of the 585
+recordings; the frozen-recipe results with all 585 are in `docs/results/study2/`.
 
 ## Summary
 

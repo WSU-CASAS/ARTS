@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 (2026-09-28)
+
+- `docs/results/study2/` regenerated after the last two Rater 2 (pass B) scores were entered:
+  both raters now cover all 585 validation recordings. Pipeline vs Rater 2: correct words
+  .968 (mean absolute difference 0.22), recency .972, intrusions .191; every other value is
+  unchanged. No code or rule changed, and the pipeline's scores are the same.
+
 ## 1.0.0 (2026-09-25)
 
 First public release: the recall pipeline behind the paper (recipe `2026-09-freeze`, the

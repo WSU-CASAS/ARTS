@@ -112,9 +112,9 @@ then scored from that transcript. The frozen recipe was applied once
 | Measure | Pipeline vs Rater 1 | Pipeline vs Rater 2 | Rater 1 vs Rater 2 |
 |---|---|---|---|
 | Correct words | .971 | .968 | .987 |
-| Primacy / middle / recency | .963 / .954 / .974 | .968 / .950 / .973 | .984 / .970 / .990 |
+| Primacy / middle / recency | .963 / .954 / .974 | .968 / .950 / .972 | .984 / .970 / .990 |
 | Repetitions | .079 | .086 | .781 |
-| Intrusions | .175 | .192 | .891 |
+| Intrusions | .175 | .191 | .891 |
 
 Low agreement for repetitions and intrusions comes mainly from their low base rate, from
 stretches that Whisper wrote twice, and from commentary or other voices in the recording; the
